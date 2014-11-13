@@ -1,0 +1,10 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: initialize-instance
+# key: init
+# binding: direct-keybinding
+# --
+(defmethod initialize-instance
+  :after ((o ${1:class name}) &rest initargs &key &allow-other-keys)
+  "Initialize a $1."
+  (declare (ignore initargs))
+  $0)

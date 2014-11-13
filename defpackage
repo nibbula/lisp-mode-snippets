@@ -1,0 +1,14 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: defpackage
+# key: defpackage
+# binding: direct-keybinding
+# --
+defpackage ${1:Package name}
+  (:documentation "${2:All about $1}.")
+  (:use :cl ${3:Packages used})
+  (:export
+   #:$1
+   #:$0
+   ))
+(in-package :$1)
+

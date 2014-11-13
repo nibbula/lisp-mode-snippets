@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: defgeneric
+# key: defgeneric
+# binding: direct-keybinding
+# --
+defgeneric ${1:name} (${2:gf-lambda-list})
+  (:documentation "$3."))

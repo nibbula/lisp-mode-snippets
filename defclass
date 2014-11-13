@@ -1,0 +1,10 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: defclass
+# key: defclass
+# binding: direct-keybinding
+# --
+defclass ${1:classname} (${2:parent-classes})
+  ($0)
+${3:  (:default-initargs
+  :$4	$5
+  )}  (:documentation "$6."))

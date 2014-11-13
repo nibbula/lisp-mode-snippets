@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: describe-object
+# key: describe
+# binding: direct-keybinding
+# --
+defmethod describe-object ((o ${1:class}) stream)
+  "Output a description of a $1 to STREAM."
+  (with-slots (${2:slots}) o
+    (format stream "~a is a $1 with $2 ~a ..." o $2)))

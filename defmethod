@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: defmethod
+# key: defmethod
+# binding: direct-keybinding
+# --
+defmethod ${1:name} (${2:specialized-lambda-list})
+  "$3."
+  $0)

@@ -1,0 +1,6 @@
+Some small shabby snippets for Common Lisp using the Emacs yasnippets package.
+
+Check out into or link to:
+~/.emacs.d/snippets/lisp-mode/
+
+Have fun popping bubbles.

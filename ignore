@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: ignore
+# key: ignore
+# binding: direct-keybinding
+# --
+(declare (ignore $0))
