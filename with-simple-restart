@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: with-simple-restart
+# key: with-simple-restart
+# binding: direct-keybinding
+# --
+with-simple-restart (${1:restart-name} "${2:message}." ${3:format-args})
+  $0)

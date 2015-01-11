@@ -1,0 +1,10 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: defcommand
+# key: defcommand
+# binding: direct-keybinding
+# --
+#+lish
+(lish:defcommand ${1:command-name}
+  (("${3:arg-name}" ${4:arg-type} :short-arg $5))
+  "${6:description}"
+  ($0))

@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: restart-case
+# key: restart-case
+# binding: direct-keybinding
+# --
+restart-case
+ $0
+ (${1:restart-name} (${2:restart-data}) ${3::interactive ${4:interactive-func}} ${5::interactive ${6:report-func-or-string}} ${7::test ${8:test-func}}
+   ${9:restart-body}))

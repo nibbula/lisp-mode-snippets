@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: handler-case
+# key: handler-case
+# binding: direct-keybinding
+# --
+handler-case
+  $0
+  (${1:condition-type} (c) $2)
+  ${3:(:no-error (${4:values-from-body}) $5)})

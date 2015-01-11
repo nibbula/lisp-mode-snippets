@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: handler-bind
+# key: handler-bind
+# binding: direct-keybinding
+# --
+handler-bind
+  ((${1:condition-type} ${2:#'(lambda (c) $3)}))
+  $0)

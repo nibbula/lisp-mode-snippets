@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: defstruct
+# key: defstruct
+# binding: direct-keybinding
+# --
+defstruct ${1:name}
+  "$2."
+  $0)

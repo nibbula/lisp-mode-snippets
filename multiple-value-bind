@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: multiple-value-bind
+# key: mvb
+# binding: direct-keybinding
+# --
+(multiple-value-bind (${1:vars}) ${2:values-form}
+  $0)

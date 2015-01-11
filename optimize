@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: optimize
+# key: optimize
+# binding: direct-keybinding
+# --
+(optimize ${1:(speed $2)} ${3:(safety $4)} ${5:(debug $6)} ${7:(space $8)} ${9:(compilation-speed $10)})

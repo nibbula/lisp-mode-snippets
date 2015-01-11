@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: find
+# key: find
+# binding: direct-keybinding
+# --
+find ${1:item} ${2:sequence} ${3::key $4} ${5::test $6} ${7::start $8} ${9::end $10} ${11::from-end $12})

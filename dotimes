@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: dotimes
+# key: dotimes
+# binding: direct-keybinding
+# --
+dotimes (${1:var} ${2:count} ${3:optional-result})
+  $0)

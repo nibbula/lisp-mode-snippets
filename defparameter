@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: defparameter
+# key: defparameter
+# binding: direct-keybinding
+# --
+defparameter *${1:name}* ${2:value}
+  "${3:doc}")

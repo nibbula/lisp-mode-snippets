@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: dolist
+# key: dolist
+# binding: direct-keybinding
+# --
+dolist (${1:var} ${2:list} ${3:optional-result})
+  $0)

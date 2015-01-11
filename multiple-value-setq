@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: multiple-value-setq
+# key: mvs
+# binding: direct-keybinding
+# --
+(multiple-value-setq (${1:vars}) $0)

@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: deftype
+# key: deftype
+# binding: direct-keybinding
+# --
+deftype ${1:name} (${2:lambda-list})
+  "${3:documentation}."
+  `($0))

@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: structure-slot
+# key: ss
+# binding: direct-keybinding
+# --
+(${1:name} ${2:init-form} ${3::type $4})

@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: multiple-value-list
+# key: mvl
+# binding: direct-keybinding
+# --
+(multiple-value-list $0)

@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: defmacro
+# key: defmacro
+# binding: direct-keybinding
+# --
+defmacro ${1:name} (${2:macro-lambda-list})
+  ${3:"$4."}
+  $0)

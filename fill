@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: fill
+# key: fill
+# binding: direct-keybinding
+# --
+fill ${1:sequence} ${2:with-item} ${3::start $4} ${5::end $6})

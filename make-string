@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: make-string
+# key: make-string
+# binding: direct-keybinding
+# --
+make-string ${1:size} ${2::initial-element $3} ${4::element-type $5})
