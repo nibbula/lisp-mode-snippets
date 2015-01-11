@@ -1,7 +1,7 @@
 Some small shabby snippets for Common Lisp using the Emacs yasnippets package.
 
 Check out into or link to:
-~/.emacs.d/snippets/lisp-mode/
+[[~/.emacs.d/snippets/lisp-mode/]]
 
 I obviously haven't included everything in Common Lisp, only the things that
 are hard for me to remember or very common and long.
@@ -11,22 +11,30 @@ the starting paren, and one where the expansion will put it in for you.
 
 - Starting paren already typed:
 
+#+BEGIN_SRC common-lisp
   (defclass<TAB>
+#+END_SRC
 
 will expand to:
 
+#+BEGIN_SRC common-lisp
   (defclass name (superclasses) ...)
+#+END_SRC
 
 - Starting paren included:
 
+#+BEGIN_SRC common-lisp
   (defclass foo (bar)
     (slot<TAB>)
     (:documentation "A foo for you."))
+#+END_SRC
 
 will put the paren in for you:
 
+#+BEGIN_SRC common-lisp
   (defclass foo (bar)
     ((slot-name :initarg slot-name :accessor ...))
     (:documentation "A foo for you."))
+#+END_SRC
 
 Enjoy your bubble popping.
