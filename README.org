@@ -3,4 +3,30 @@ Some small shabby snippets for Common Lisp using the Emacs yasnippets package.
 Check out into or link to:
 ~/.emacs.d/snippets/lisp-mode/
 
-Have fun popping bubbles.
+I obviously haven't included everything in Common Lisp, only the things that
+are hard for me to remember or very common and long.
+
+Generally, there are two styles of expansion, one where you've already typed
+the starting paren, and one where the expansion will put it in for you.
+
+- Starting paren already typed:
+
+  (defclass<TAB>
+
+will expand to:
+
+  (defclass name (superclasses) ...)
+
+- Starting paren included:
+
+  (defclass foo (bar)
+    (slot<TAB>)
+    (:documentation "A foo for you."))
+
+will put the paren in for you:
+
+  (defclass foo (bar)
+    ((slot-name :initarg slot-name :accessor ...))
+    (:documentation "A foo for you."))
+
+Enjoy your bubble popping.
