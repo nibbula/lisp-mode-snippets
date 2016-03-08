@@ -1,17 +1,21 @@
 Some small shabby snippets for Common Lisp using the Emacs yasnippets package.
 
-Check out into or link to: [[file:~/.emacs.d/snippets/lisp-mode/]]
-
-You also may want/need to load funcs.el which are functions used when
-expanding certain snippets. Perhaps it should be in a .yas-setup.el file,
-but the documentation says TODO, so I haven't put it in there. You can just
-load it from your .emacs or something.
-
 I haven't included everything in Common Lisp, only the things that are hard
 for me to remember or very common and long.
 
-Generally, there are two styles of expansion, one where you've already typed
-the starting paren, and one where the expansion will put it in for you.
+INSTALL:
+
+  Check out into or link to: [[file:~/.emacs.d/snippets/lisp-mode/]]
+
+  You also may want/need to load funcs.el which are functions used when
+  expanding certain snippets. Perhaps it should be in a .yas-setup.el file,
+  but the documentation says TODO, so I haven't put it in there. You can just
+  load it from your .emacs or something.
+
+USE:
+
+  Generally, there are two styles of expansion, one where you've already typed
+  the starting paren, and one where the expansion will put it in for you.
 
 - Starting paren already typed:
 
@@ -41,4 +45,4 @@ will put the paren in for you:
     (:documentation "A foo for you."))
 #+END_SRC
 
-Enjoy your bubble popping.
+Enjoy!
