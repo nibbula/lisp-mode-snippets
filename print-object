@@ -1,0 +1,11 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: print-object
+# key: print-object
+# binding: direct-keybinding
+# --
+(defmethod print-object ((object ${1:class}) stream)
+  "Print a $1 to STREAM."
+  (with-slots (${2:slots}) object
+    (print-unreadable-object (object stream)
+      (format stream "" $0))))
+

@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: muffle
+# key: muffle
+# binding: direct-keybinding
+# --
+#+sbcl (declare (sb-ext:muffle-conditions ${1:sb-ext:compiler-note} ${2:style-warning}))
