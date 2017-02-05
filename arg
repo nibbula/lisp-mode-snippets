@@ -3,4 +3,4 @@
 # key: arg
 # binding: direct-keybinding
 # --
-("${1:name}" ${2:type}${3: :short-arg #\\$4}${5: :long-arg "$6"}${7: :default $8}${9: :optional ${10:nil}}${11: :repeating ${12:t}})
+(${1:name} ${2:type}${3: :short-arg #\\$4}${5: :long-arg "$6"}${7: :default $8}${9: :optional ${10:nil}}${11: :repeating ${12:t}}${13: :help "$14"})
