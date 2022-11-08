@@ -1,0 +1,10 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: make-load-form
+# key: make-load-form
+# binding: direct-keybinding
+# --
+(defmethod make-load-form ((${1:object} ${2:type}) &optional environment)
+  "$4."
+  ;; Return creation-form and optionally initialization-form.
+  ${5:(make-load-form-saving-slots $1 :environment environment)}
+  $0)
